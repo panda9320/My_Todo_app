@@ -1,0 +1,47 @@
+.Todo_items {
+    display: flex;
+    justify-content:space-between;
+    border-radius: 100px;
+    border: 15px black;
+    padding: 10px;
+    width: 40%;
+    margin: 20px auto ;
+    box-shadow: 10px 10px    11px rgba(33,33,33,.2);
+    
+}
+
+.List_item {
+    width: 50%;
+    position: relative;
+    left: 5rem  ;
+    
+}
+
+.list_text{
+    overflow-wrap: break-word;
+    margin: 15px auto 
+}
+
+.complete_edit_delete_box{
+    width: 30%;
+ }
+
+.edit{
+    border-radius:20%;
+    margin: 4px;
+    padding: 10px ;
+    background-color: deepskyblue;
+
+}
+.delete{
+    border-radius:20%;
+    padding: 10px;
+    background-color:crimson;
+    margin: 4px;
+}
+.select{
+    padding: 10px;
+    border-radius:20%;
+    margin: 4px ;
+    background-color:  #2ea44f;
+}
